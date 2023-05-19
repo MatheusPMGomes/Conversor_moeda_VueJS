@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="../public/background.jpg" alt="">
+    <img loading="lazy" src="../public/background.jpg" alt="">
     <h1>Conversor de moedas VueJS</h1>
     <div class="linha">
       <Conversor  moeda-a="USD" moeda-b="BRL"/>
@@ -66,7 +66,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 40px;
+  margin: 40px 0;
   gap: 1em;
 }
 </style>
